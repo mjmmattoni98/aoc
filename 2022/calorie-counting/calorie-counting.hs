@@ -20,3 +20,12 @@ main = do
   print maxCalories
   let topThreeMaxCalories = findTopThreeMaxCalories linesOfFile [] 0
   print topThreeMaxCalories
+
+multiple :: Int -> Int -> Int
+multiple x y = x * y
+
+multipleByFive :: Int -> Int
+multipleByFive = multiple 5
+
+aux = multipleByFive 10
+aux1 = multipleByFive 20
